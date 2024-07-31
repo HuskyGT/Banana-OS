@@ -26,7 +26,7 @@ namespace BananaOS.Pages
             selectionHandler.maxIndex = 1;
         }
 
-        //What you return is what is drawn to the watch screen
+        //What you return is what is drawn to the watch screen the screen will be updated everytime you press a button
         public override string OnGetScreenContent()
         {
             var stringBuilder = new StringBuilder();
