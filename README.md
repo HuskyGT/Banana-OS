@@ -2,8 +2,6 @@
 # Sneak peaks: https://discord.gg/mDxtRwr3je
 
 ## For Developers
-These docs are terrible but I will fix them up soon
-
 It is highly reccommended that you manually register your page using `RegisterPage` in `MonkeWatch` as shown bellow not doing so may cause your page not to be loaded due to a current bug
 ```cs
 [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
