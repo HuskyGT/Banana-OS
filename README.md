@@ -1,5 +1,5 @@
 # Banana-OS
-# Sneak peaks: https://discord.gg/mDxtRwr3je
+## Discord Server: https://discord.gg/mDxtRwr3je
 
 ## For Developers
 
