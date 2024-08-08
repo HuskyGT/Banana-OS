@@ -2,6 +2,8 @@
 # Sneak peaks: https://discord.gg/mDxtRwr3je
 
 ## For Developers
+
+### Setting Up A Watch Page
 It is highly reccommended that you manually register your page using `RegisterPage` in `MonkeWatch` as shown bellow not doing so may cause your page not to be loaded due to a current bug
 ```cs
 [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
@@ -14,7 +16,6 @@ public class Plugin : BaseUnityPlugin
 }
 ```
 
-### Setting Up A Watch Page
 To setup a watch page you first have to create a new class that inherits `WatchPage` bellow is an example of a page using Banana OS which has two buttons that you can click
 ```cs
 using System.Text;
