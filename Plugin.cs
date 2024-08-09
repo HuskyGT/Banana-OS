@@ -5,7 +5,6 @@ using System.Reflection;
 using System;
 using BananaOS.Pages;
 using System.Linq;
-using System.Collections.Generic;
 using UnityEngine.InputSystem;
 
 namespace BananaOS
@@ -57,7 +56,7 @@ namespace BananaOS
                 }
             }
 
-            var str = Assembly.GetExecutingAssembly().GetManifestResourceStream("Banana_OS.Resources.bananaosassets");
+            var str = Assembly.GetExecutingAssembly().GetManifestResourceStream("BananaOS.Resources.bananaosassets");
             var bundle = AssetBundle.LoadFromStream(str);
             var bananaOSAssets = Instantiate(bundle.LoadAsset<GameObject>("BananaOS"));
             MonkeWatch.watchPrefab = Instantiate(bananaOSAssets.transform.GetChild(1).gameObject);

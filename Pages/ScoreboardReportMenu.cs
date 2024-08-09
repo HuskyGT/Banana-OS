@@ -18,7 +18,7 @@ namespace BananaOS.Pages
         public override string OnGetScreenContent()
         {
             var stringBuilder = new StringBuilder();
-            stringBuilder.AppendLine("WIP");
+            stringBuilder.AppendLine("This Page Hasn't Been Implemented");
             return stringBuilder.ToString();
             /*var content = "<color=yellow>==</color> Report User <color=yellow>==</color>\n\n";
             content += $"Report {ScoreboardPlayerMenu.viewingPlayer?.NickName.LimitLength(12)} ?\n\n\n";

@@ -177,6 +177,7 @@ namespace BananaOS
             MonkeWatch.Instance.displayingPage = screen;
             screen.OnPageOpen();
             MonkeWatch.Instance.UpdateScreen();
+            Debug.Log($"Switched To Page: " + screen.GetType().Name);
         }
         public void SwitchToPage(Type screenType)
         {
