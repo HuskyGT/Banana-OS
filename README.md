@@ -1,4 +1,3 @@
-# Banana-OS
 ## Discord Server: 
 ### https://discord.gg/mDxtRwr3je
 
