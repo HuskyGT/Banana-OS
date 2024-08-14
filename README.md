@@ -9,6 +9,7 @@ BananaNotifications.DisplayNotification("This is a basic example of displaying a
 ```
 this notifcation will have the default parameters which is a yellow background color, white text color, and the duration of 3 or the implementation of this
 <br>
+<br>
 Here is an example of what the example above looks like in full form
 ```cs
 BananaNotifications.DisplayNotification("This is a basic example of displaying a notification", Color.yellow, Color.white, notificationDuration);
