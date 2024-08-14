@@ -2,6 +2,7 @@
 ### https://discord.gg/mDxtRwr3je
 
 
+
 ## For Developers
 ### Displaying Notifications
 There are multiple ways you can choose to display notifications using the `DisplayNotification` method here is an example of a basic implementation of `DisplayNotification`
