@@ -12,7 +12,7 @@ this notifcation will have the default parameters which is a yellow background c
 <br>
 Here is an example of what the example above looks like in full form
 ```cs
-BananaNotifications.DisplayNotification("This is a basic example of displaying a notification", Color.yellow, Color.white, notificationDuration);
+BananaNotifications.DisplayNotification("This is a basic example of displaying a notification", Color.yellow, Color.white, 3);
 ```
 This is an example of an implementation that changes these parameters so the background color would be red, the text color would be green, the notification duration would be 6, and the text that would be displayed would be "This is a example of displaying a notification"
 ```cs
