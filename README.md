@@ -21,7 +21,6 @@ BananaNotifications.DisplayNotification("This is a example of displaying a notif
 ```
 There is also two other methods that are for basic warning and error messages without changing the paramters `DisplayErrorNotification()` and `DisplayWarningNotification()`
 
-<br> <br>
 
 ### Setting Up A Watch Page
 To setup a watch page you first have to create a new class that inherits `WatchPage` bellow is an example of a page using Banana OS which has two buttons that you can click
