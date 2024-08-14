@@ -1,6 +1,6 @@
 # Banana-OS
 ## Discord Server: 
-https://discord.gg/mDxtRwr3je
+### https://discord.gg/mDxtRwr3je
 
 ## For Developers
 
