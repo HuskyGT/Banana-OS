@@ -4,9 +4,6 @@
 <br>
 
 ## For Developers
-
-<br>
-
 ### Setting Up A Watch Page
 To setup a watch page you first have to create a new class that inherits `WatchPage` bellow is an example of a page using Banana OS which has two buttons that you can click
 ```cs
