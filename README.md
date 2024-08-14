@@ -1,7 +1,7 @@
 ## Discord Server: 
 ### https://discord.gg/mDxtRwr3je
 
-
+<br>
 
 ## For Developers
 ### Displaying Notifications
