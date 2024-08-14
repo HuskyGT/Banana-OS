@@ -2,6 +2,22 @@
 ## Discord Server: https://discord.gg/mDxtRwr3je
 
 ## For Developers
+### Displaying Notifications
+There are multiple ways you can choose to display notifications using the `DisplayNotification` method here is an example of a basic implementation of `DisplayNotification`
+```cs
+BananaNotifications.DisplayNotification("This is a basic example of displaying a notification");
+```
+this notifcation will have the default parameters which is a yellow background color, white text color, and the duration of 3 or the implementation of this
+<br>
+Here is an example of what the example above looks like in full form
+```cs
+BananaNotifications.DisplayNotification("This is a basic example of displaying a notification", Color.yellow, Color.white, notificationDuration);
+```
+This is an example of an implementation that changes these parameters so the background color would be red, the text color would be green, the notification duration would be 6, and the text that would be displayed would be "This is a example of displaying a notification"
+```cs
+BananaNotifications.DisplayNotification("This is a example of displaying a notification", Color.red, Color.green, 6);
+```
+There is also two other methods that are for basic warning and error messages without changing the paramters `DisplayErrorNotification()` and `DisplayWarningNotification()`
 
 ### Setting Up A Watch Page
 To setup a watch page you first have to create a new class that inherits `WatchPage` bellow is an example of a page using Banana OS which has two buttons that you can click
