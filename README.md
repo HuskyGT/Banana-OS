@@ -67,6 +67,7 @@ namespace BananaOS.Pages
 ```
 <br>
 
+
 ### Displaying Notifications
 There are multiple ways you can choose to display notifications using the `DisplayNotification` method here is an example of a basic implementation of `DisplayNotification`
 ```cs
