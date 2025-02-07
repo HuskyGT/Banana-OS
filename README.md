@@ -1,3 +1,17 @@
+![Banana OS](https://github.com/user-attachments/assets/1fe9ed71-9198-4a65-9735-4bb07fd5df7b)
+Banana OS is a modification for 'Gorilla Tag' that adds a watch which allows for custom pages.
+
+## Features
+
+- Built in Scoreboard where you can mute, report, or friend
+
+- Notification system that notifies you when a friend joins (And when you join a lobby, which is toggleable in the config file)
+
+- Custom pages
+
+- Custom skins
+
+- More miscellaneous features
 ## Discord Server: 
 ### https://discord.gg/mDxtRwr3je
 
@@ -85,5 +99,7 @@ This is an example of an implementation that changes these parameters so the bac
 BananaNotifications.DisplayNotification("This is a example of displaying a notification", Color.red, Color.green, 6);
 ```
 There is also two other methods that are for basic warning and error messages without changing the paramters `DisplayErrorNotification()` and `DisplayWarningNotification()`
+
+## Disclaimer
 
 ### This product is not affiliated with Gorilla Tag or Another Axiom LLC and is not endorsed or otherwise sponsored by Another Axiom LLC. Portions of the materials contained herein are property of Another Axiom LLC. ©2021 Another Axiom LLC.
